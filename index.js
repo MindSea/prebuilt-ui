@@ -117,6 +117,11 @@ async function joinCall() {
   });
 }
 
+async function saveUsername() {
+  const username = document.getElementById('username');
+  await callFrame.setUserName(username.value, { thisMeetingOnly: false });
+}
+
 /* Event listener callbacks */
 
 // Logs the Daily event to the console

@@ -80,6 +80,15 @@
   border-radius: 8px;
 }
 
+.username {
+  width: 300px;
+  line-height: 18px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  border-radius: 8px;
+}
+
 .instructions {
   display: flex;
   flex-direction: column;

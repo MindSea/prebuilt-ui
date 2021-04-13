@@ -25,10 +25,23 @@
       <h1 class="title">Daily Prebuilt UI demo</h1>
       <div class="instructions">
         <p id="instruction-text">
-          To get started, enter an existing room URL or create a temporary demo
-          room
+          Enter a member email as the username and a team's audioRoomURL
         </p>
         <div class="input-and-buttons">
+          <label for="username"></label>
+          <input
+            type="text"
+            class="username"
+            id="username"
+            placeholder="Username"
+          />
+          <button
+            class="button"
+            id="save-username-button"
+            onclick="saveUsername()"
+          >
+            Save username
+          </button>
           <label for="room-url"></label>
           <input
             type="text"
